@@ -16,7 +16,7 @@ The three files in `data/` are analysis-ready extracts prepared from publicly av
 
 The legend matches the selected layer. Hover over a county for its values.
 
-**Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate from December 14, 2020 through December 31, 2021, colored by urban–rural status. Hover for the date and rate.
+**Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate for year 2021, colored by urban–rural status. Hover for the date and rate.
 
 **Vaccine Providers.** Provider name, vaccine type, address, city, ZIP code, phone, website, and county. Each column has a filter input directly under the column name. Type in that box to show only the providers that match. For example, enter a ZIP code in the Zip filter to see providers in that ZIP code, or a city name in the City filter to see providers in that city.
 
