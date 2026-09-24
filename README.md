@@ -35,7 +35,7 @@ Packages used: `shiny`, `tidyverse`, `sf`, `leaflet`, `plotly`, `reactable`, and
 | File | Contents |
 | --- | --- |
 | `data/oh_county_data.geojson` | Ohio counties with vaccination rate, number vaccinated, SVI, SVI category, urban–rural status, and percent uninsured |
-| `data/vax_rate_over_time.csv` | Daily vaccinated count, population, and vaccination rate by urban–rural status, December 14, 2020–December 31, 2021 |
+| `data/vax_rate_over_time.csv` | Daily vaccinated count, population, and vaccination rate by urban–rural status, for year 2021 |
 | `data/vax_providers.csv` | Vaccine provider locations, including name, vaccine type, address, and county |
 
 Urban–rural categories follow the six groups used in the time-series file: large central metro, large fringe metro, medium metro, small metro, micropolitan, and non-core.
