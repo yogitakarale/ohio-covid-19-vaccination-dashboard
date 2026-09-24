@@ -14,19 +14,19 @@ The three files in `data/` are analysis-ready extracts prepared from publicly av
 - Social Vulnerability Index (SVI)
 - Urban–rural status
 
-The legend matches the selected layer. Hover over a county for its values.
+The legend matches the selected layer. Hover over a county to see its name and the details for the selected layer.
 
-**Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate for year 2021, colored by urban–rural status. Hover for the date and rate.
+**Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate for year 2021, colored by urban–rural status. Hover over a bar to see the urban–rural status, the date, and the vaccination rate.
 
 **Vaccine Providers.** Provider name, vaccine type, address, city, ZIP code, phone, website, and county. Each column has a filter input directly under the column name. Type in that box to show only the providers that match. For example, enter a ZIP code in the Zip filter to see providers in that ZIP code, or a city name in the City filter to see providers in that city.
 
 ## How to run it
 
-1. Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).
-2. Download or clone this repository and keep `app.R` and the `data` folder side by side.
-3. Open `app.R` in RStudio and click **Run App**.
+1. Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/). Skip this step if R and RStudio are already installed.
+2. [Download the project as a ZIP file](https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard/archive/refs/heads/main.zip) and unzip it. Or clone the repository: `git clone https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard.git`
+3. From the project folder, open `app.R` with RStudio, then click **Run App**. The **Run App** button is at the top right of the script editor.
 
-On startup the script installs any missing packages and sets the working directory from the open `app.R` file. The first launch can take several minutes, especially for `tidyverse` and `sf`.
+The first run installs any missing packages and can take several minutes.The dashboard then opens in a window.
 
 Packages used: `shiny`, `tidyverse`, `sf`, `leaflet`, `plotly`, `reactable`, and `rstudioapi`.
 
