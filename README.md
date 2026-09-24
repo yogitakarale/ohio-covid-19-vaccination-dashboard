@@ -8,22 +8,25 @@ The three files in `data/` are analysis-ready extracts prepared from publicly av
 
 ## What the app shows
 
-**County Map: Vaccination Rate, SVI, and Urban–Rural Status.** One county layer is visible at a time. The radio buttons switch among:
+The dashboard has three components:
 
-- COVID-19 vaccination rate
-- Social Vulnerability Index (SVI)
-- Urban–rural status
+1. **County Map: Vaccination Rate, SVI, and Urban–Rural Status.** One county layer is visible at a time. The radio buttons switch among:
 
-The legend matches the selected layer. Hover over a county to see its name and the details for the selected layer.
+   - COVID-19 vaccination rate
+   - Social Vulnerability Index (SVI)
+   - Urban–rural status
 
-**Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate for year 2021, colored by urban–rural status. Hover over a bar to see the urban–rural status, the date, and the vaccination rate.
+   The legend matches the selected layer. Hover over a county to see its name and the details for the selected layer: vaccination rate and number of people vaccinated, the Social Vulnerability Index and its category, or urban–rural status.
 
-**Vaccine Providers.** Provider name, vaccine type, address, city, ZIP code, phone, website, and county. Each column has a filter input directly under the column name. Type in that box to show only the providers that match. For example, enter a ZIP code in the Zip filter to see providers in that ZIP code, or a city name in the City filter to see providers in that city.
+2. **Vaccination Rate Over Time by Urban–Rural Status.** Stacked bars of the vaccination rate from December 14, 2020 through December 31, 2021, colored by urban–rural status. Hover over a bar to see the urban–rural status, the date, and the vaccination rate.
 
-## How to run it
+3. **Vaccine Providers.** Provider name, vaccine type, address, city, ZIP code, phone, website, and county. Each column has a filter input directly under the column name. Type in that box to show only the providers that match. For example, enter a ZIP code in the Zip filter to see providers in that ZIP code, or a city name in the City filter to see providers in that city.
+
+
+## How to download and run
 
 1. Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/). Skip this step if R and RStudio are already installed.
-2. [Download the project as a ZIP file](https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard/archive/refs/heads/main.zip) and unzip it. Or clone the repository: `git clone https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard.git`
+2. [Download the project as a ZIP file](https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard/archive/refs/heads/main.zip) and unzip it. If you use Git, you can clone the repository instead: `git clone https://github.com/yogitakarale/ohio-covid-19-vaccination-dashboard.git`
 3. From the project folder, open `app.R` with RStudio, then click **Run App**. The **Run App** button is at the top right of the script editor.
 
 The first run installs any missing packages and can take several minutes.The dashboard then opens in a window.
